@@ -1,0 +1,40 @@
+html,
+body,
+section {
+  height: 100%;
+}
+body {
+  background-color: #dde2eb;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  min-width: 400px;
+  min-height: 100px;
+  background-color: #79aaf7;
+  border-radius: 5px;
+  display: block;
+  padding: 10px;
+  font-size: 24px;
+}
+table thead th:nth-child(1) {
+  width: 50px;
+}
+table thead th {
+  width: 100px;
+}
+table thead {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+table tbody tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+table tbody th {
+  font-weight: normal;
+}
+table tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.4);
+}
